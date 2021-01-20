@@ -1,0 +1,161 @@
+
+#usmap {
+    position: relative;
+    width: 950px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+#usmap svg {
+  background-color: #00436f;
+  user-select: none;
+}
+.tooltip .name {
+  text-transform: capitalize;
+}
+.stats {
+  display: flex;
+  text-align: center;
+  
+}
+.caption {
+  margin-top: 0.25rem;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+.tooltip .title {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+}
+.tooltip .metric, 
+.tooltip .percentage,
+.tooltip .total {
+  width: 33.333%;
+}
+
+.stats div div {
+  padding: 5px;
+  
+}
+
+
+.tooltip .metric :first-child, 
+.tooltip .percentage :first-child,
+.tooltip .total :first-child
+{
+  background-color:#dddddd;
+}
+
+.tooltip .name {
+  text-align: left;
+  font-size: 1.25rem;
+  width: 75%
+  
+}
+
+.tooltip {
+  background-color:white;
+  border: 2px solid #00436f;
+  border-radius:5px;
+  padding:5px;
+  position: absolute;
+  width: 24rem;
+}
+
+#usmap .legend {
+  stroke-width: 2px;
+  stroke:  #00436f;
+}
+
+
+.state {
+  stroke: rgb(220, 220, 220);
+  stroke-width: 1px;
+  cursor: pointer;
+}
+
+.strong-state {
+  cursor: pointer;
+}
+
+h1{
+  color: black; 
+  font-family: copperplate; 
+  text-align: center;
+}
+
+h2{
+  top: 30px;
+  font-size: 1em;
+}
+
+/* style slider */
+#sliderContainer {
+  text-align: center;
+  position: static;
+}
+
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+
+#CaseButtonContainer {
+  display: flex; 
+  justify-content: center;
+}
+
+#RaceButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  display: table;
+  width: 10%;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active,
+.btn.active-type{
+  display: table;
+  background-color: #666;
+  color: white;
+  width: 10%;
+}
+
+#chart {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  position: relative;
+  user-select: none;
+  margin-bottom: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  width: 500px;
+  margin-top: 1rem;
+}
+
+#date,#chart .title{
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
